@@ -11,7 +11,9 @@
 
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css">
 
-     <link rel="stylesheet" href="./assets/main.css">
+     <link rel="stylesheet" href="./assets/css/main.css">
+
+     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 </head>
 <body>
     <!-- header -->
@@ -74,5 +76,99 @@
                 </div>
         </nav>
      </header>
+
+    <!-- search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- featured articles -->
+     <section class="featured-articles section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-item-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Apple is Finished..</span>
+                </div>
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/freatured-01.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span><div class="article-data-spacer"></div></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Limits of Artificial Intelligence.</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-02.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span><div class="article-data-spacer"></div></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Limits of Artificial Intelligence.</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-03.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span><div class="article-data-spacer"></div></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Limits of Artificial Intelligence.</h3>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+     </section>
+
+
+
+
+
+
+     <script src="./assets/javascript/swiper-bundle.min.js"></script>
+     <script src="./assets/javascript/main.js"></script>
 </body>
 </html>
