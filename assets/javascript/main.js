@@ -71,7 +71,6 @@ themeToggleBtn.addEventListener('click', () => {
 
 });
 
-<<<<<<< HEAD
 //Swiper
 
 const swiper = new Swiper('.swiper',{
@@ -94,9 +93,6 @@ const swiper = new Swiper('.swiper',{
     }
 });
 
-
-=======
->>>>>>> fac695488f4835e1c6257a9fbb4ab09e2d9bb986
 
 
 

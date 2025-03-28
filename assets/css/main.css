@@ -311,14 +311,11 @@ body.light-theme{
     height: inherit;
 }
 
-<<<<<<< HEAD
 .fancy-border{
     position: relative;
     overflow: hidden ;
 }
 
-=======
->>>>>>> fac695488f4835e1c6257a9fbb4ab09e2d9bb986
 .fancy-border::before{
     content: '';
     position: absolute;
@@ -460,7 +457,6 @@ body.light-theme{
     color: var(--light-color-alt);
 }
 
-<<<<<<< HEAD
 /* Quick Read */
 .section-title{
     position: relative;
@@ -795,6 +791,4 @@ body.light-theme{
 
 
 }
-=======
 
->>>>>>> fac695488f4835e1c6257a9fbb4ab09e2d9bb986
