@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightSphere | Home</title>
+
+    <!-- Favicon -->
+     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/Logo.png">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css">
+
+     <link rel="stylesheet" href="./assets/css/main.css">
+
+     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- header -->
+     <header class="header" id="header">
+
+        <nav class="navbar container">
+
+                <a href="./index.html">
+                    <h2 class="logo">InsightSphere</h2>
+                </a>
+
+                <div class="menu" id="menu">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="#" class="list-link current">Home</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Catagories</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Reviews</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">News</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Membership</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="list-link">Contact</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+                            <a href="#" class="list-link">Sign In</a>
+                        </li>
+                        <li class="list-item screen-lg-hidden">
+                            <a href="#" class="list-link">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="list list-right">
+                    <button class="btn place-items-center" id="theme-toggle-btn">
+                        <i class="ri-sun-line sun-icon"></i>
+                        <i class="ri-moon-line moon-icon"></i>
+                    </button>
+
+                    <button class="btn place-items-center" id="search-icon">
+                        <i class="ri-search-line"></i>
+                    </button>
+
+                    <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                        <i class="ri-menu-3-line open-menu-icon"></i>
+                        <i class="ri-close-line close-menu-icon"></i>
+                    </button>
+                    
+                    <a href="" class="list-link screen-sm-hidden">Sign in</a>
+                    <a href="" class="list-link screen-sm-hidden btn sign-up-btn fancy-border"><span>Sign in</span></a>
+
+
+                </div>
+        </nav>
+     </header>
+
+    <!-- search -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What are you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- featured articles -->
+     <section class="featured-articles section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-item-center">Breaking news</span>
+                    </h3>
+                    <span class="headline-description">Apple is Finished..</span>
+                </div>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/freatured-01.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Limits of Artificial Intelligence.</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-02.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">What Happened Before the Big Bang?</h3>
+                    </div>
+                </a>
+
+                <a href="./post.html" class="article featured-article featured-article-1">
+                    <img src="./assets/images/featured/featured-03.jpg" alt="" class="article-image">
+                    <span class="article-catagory">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2024</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Do We Have Free Will?</h3>
+                    </div>
+                </a>
+            </div>
+
+            <!-- sidebar -->
+             <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Trending News</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./assets/images/trending/trending-01.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./assets/images/trending/trending-02.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./assets/images/trending/trending-04.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./assets/images/trending/trending-05.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./assets/images/trending/trending-03.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+
+                </a>
+
+
+
+             </div>
+        </div>
+     </section>
+
+     <!-- Quick read -->
+     <section class="quick-read section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Quick read">
+                Quick Read</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-01.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Hidden Tech Gems: Lesser-Known Websites That Make Life Easier.</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-02.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Psychology of Procrastination: Why We Delay and How to Stop.</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-03.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">From Zero to Hero: The Fastest Way to Learn Any New Skill.</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-04.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Digital Nomad Life: Pros, Cons, and How to Get Started.</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-05.jpg" alt="" class="article-image">
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Micro-Habits: Small Changes That Create Big Impact.</h3>
+                    </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./assets/images/Quick-read/quick-read-06.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Tech Myths Busted: Common Misconceptions About the Digital World.</h3>
+                    </div>
+                    </a>
+                </div>
+
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+     </section>
+
+     <!-- older posts -->
+      <section class="older-posts section">
+
+        <div class="container">
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-01.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Evolution of the Internet: From Dial-Up to 5G and Beyond.</h3>
+                        <p class="article-description">From slow dial-up to lightning-fast 5G, the internet has transformed how we connect and communicate.
+                            Explore its key milestones and what's next.</p>
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-02.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Power of Storytelling.</h3>
+                        <p class="article-description">From ancient myths to modern cinema, storytelling has been a cornerstone of human civilization.</p>
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-03.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Importance of DSA: Why Every Aspiring Developer Must Master It.</h3>
+                        <p class="article-description">Data Structures and Algorithms (DSA) play a crucial role in cracking coding interviews and optimizing software performance. This post explains why DSA is essential.</p>
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-04.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Startup Boom: How Tech Entrepreneurs are Redefining the Business World.</h3>
+                        <p class="article-description">From Silicon Valley to emerging tech hubs. Discover the key factors behind successful tech startups and what the future holds.</p>
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-05.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Exploring India's Lesser-Known Travel Destinations.</h3>
+                        <p class="article-description">India is home to breathtaking hidden gems waiting to be explored. Discover offbeat travel spots that offer tranquility, adventure, and cultural richness.</p>
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="./assets/images/Older-posts/older-posts-06.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Dec 10th 2021</span>
+                            <span class="article-data-spacer"></span>
+                            <span>8 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">The Art of Minimalism: How Less Can Be More in Life.</h3>
+                        <p class="article-description">In a world filled with excess, minimalism teaches us to focus on what truly matters.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">
+                    See more <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+      </section>
+
+      <!-- Popular tags -->
+       <section class="popular-tags section">
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Travel</span>
+                    <img src="./assets/images/Tags/Travel.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Technology</span>
+                    <img src="./assets/images/Tags/Technology.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Science</span>
+                    <img src="./assets/images/Tags/Science.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Philosophy</span>
+                    <img src="./assets/images/Tags/philosophy.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Education</span>
+                    <img src="./assets/images/Tags/Education.jpg" alt="" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Business</span>
+                    <img src="./assets/images/Tags/Business.jpg" alt="" class="article-image">
+                </a>
+            </div>
+
+        </div>
+       </section>
+
+       <!-- Newsletter -->
+       <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+
+                <h6 class="title newsletter-title">Subscribe to InsightSphere</h6>
+                <p class="newsletter-description">InsightSphere Newsletter - Curated insights
+                     on Technology, Science, Philosophy, Education, and Business to keep you 
+                     informed and inspired. Subscribe now!</p>
+
+                    <form action="" class="form">
+                        <input type="text" class="form-input" placeholder="Enter your email address">
+                        <button class="btn form-btn" type="submit">
+                            <i class="ri-mail-send-line"></i>
+                        </button>
+                    </form>
+
+            </div>
+        </div>
+       </section>
+
+       <!-- Footer -->
+       <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">InsightSphere</h2>
+                </a>
+                <p class="company-description">
+                    InsightSphere - A place that sparks curiosity, 
+                    explores ideas, and brings fresh perspectives on
+                     the world around us.
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2025 InsightSphere. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Catagories</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+       </footer>
+
+
+     <script src="./assets/javascript/swiper-bundle.min.js"></script>
+     <script src="./assets/javascript/main.js"></script>
+</body>
+</html>
