@@ -30,11 +30,11 @@ Welcome to **InsightSphere** — Your one-stop destination for insightful articl
 
 Here are some screenshots of the project:
 
-![Homepage Screenshot](./images/homepage.png)
+![Homepage Screenshot](./assets/images/Homepage.png.png)
 
-![Old Posts](./images/OldPost.png)
+![Old Posts](./assets/images/OldPost.png.png)
 
-![Categories](./images/Categories)
+![Categories](./assets/images/Categories.png.png)
 
 ## 📝 How to Contribute
 
@@ -63,7 +63,7 @@ This project is licensed under the MIT License. Feel free to use and modify it.
 
 ## 📧 Contact
 
-If you have any questions or suggestions, feel free to reach out to me at **[princemishra8104@gmail.com]**(princemishra8104@gmail.com) or through my GitHub profile: [prince-mishraa](https://github.com/prince-mishraa).
+If you have any questions or suggestions, feel free to reach out to me at **princemishra8104@gmail.com** or through my GitHub profile: [prince-mishraa](https://github.com/prince-mishraa).
 
 ---
 
