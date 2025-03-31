@@ -56,9 +56,6 @@ if(currentTheme){
     bodyElement.classList.add('light-theme');
 }
 
-
-
-
 themeToggleBtn.addEventListener('click', () => {
     bodyElement.classList.toggle('light-theme');
 
