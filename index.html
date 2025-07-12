@@ -163,9 +163,10 @@
 
             <!-- sidebar -->
             <div class="sidebar d-grid">
-
                 <h3 class="title featured-content-title">Trending News</h3>
-                <div id = "live-news-feed"></div>
+                <div id="trending-news" class="sidebar-news"></div>
+
+                <!-- <div id = "live-news-feed"></div> -->
             </div>
         </div>
     </section>
@@ -592,19 +593,13 @@
     <script src="./assets/javascript/main.js"></script>
 
     <script>
-    console.log("Script loaded");
-
-    const apiKey = '2dfe34e8a44c493095096dcfd8ba4020'; 
-    const url = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`;
+    const url = '/.netlify/functions/getNews';
 
     fetch(url)
-        .then(response => {
-            console.log("Response Status:", response.status);
-            return response.json();
-        })
-        .then(data => {
-            console.log("Full response data:", data);
+        .then(response => response.json())
 
+        .then(data => {
+            console.log("Fetched news:", data);
             const container = document.getElementById('live-news-feed');
             let index = 1;
 
@@ -617,7 +612,7 @@
                 newsCard.innerHTML = `
                     <div class ="trending-news-image-box">
                         <span class ="trending-number place-items-center">0${index}</span>
-                        <img src="${article.urlToImage || "./assets/images/trending/fallback"}" alt="news-image" class="sidebar-image">
+                        <img src="${article.urlToImage || './assets/images/trending/fallback'}" alt="news-image" class="sidebar-image">
                     </div>
                     <div class="trending-news-data">
                         <div class="article-data">
@@ -638,5 +633,10 @@
             console.error("Error fetching news:", err);
         });
     </script>
+
+<script src="assets/javascript/news.js"></script>
+</body>
+
+
 </body>
 </html>
