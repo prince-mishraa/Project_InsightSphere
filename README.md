@@ -46,6 +46,8 @@ We welcome contributions to enhance InsightSphere! Here's how you can contribute
 4. Push to your branch (`git push origin feature/your-feature-name`).
 5. Open a pull request.
 
+ ## NOTE: API key exposed for demo only. In production, move to a backend function.
+
 ## 🚧 Roadmap
 
 Here’s what’s planned for **InsightSphere**:
