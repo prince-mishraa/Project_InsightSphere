@@ -2,17 +2,27 @@
 
 Welcome to **InsightSphere** — Your one-stop destination for insightful articles and blogs on Technology, Science, Philosophy, Education, and Business.
 
+## 🎥 Demo
+
+[![Watch the demo](https://img.youtube.com/vi/GpK4uCfmCLg/maxresdefault.jpg)](https://youtu.be/GpK4uCfmCLg)
+
 ## 🚀 Features
 
+- 🛜 **Live Trending News Feed** (TechCrunch)
 - 📰 Browse through diverse categories of articles.
 - 📚 Detailed blogs with engaging visuals.
 - 🔎 Search functionality to find articles of your interest.
 - 📱 Responsive design for seamless mobile and desktop experience.
+- 🌐 Hosted on [Netlify](https://melodious-gecko-815468.netlify.app/)
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Design:** CSS Flexbox & Grid for responsive design
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- NewsAPI (for dynamic news)
+- Netlify (for deployment)
+- Git + GitHub (for version control)
 
 ## 📥 Installation
 
@@ -25,16 +35,6 @@ Welcome to **InsightSphere** — Your one-stop destination for insightful articl
     cd Project_InsightSphere
     ```
 3. Open the `index.html` in your browser to get started.
-
-## 💡 Screenshots
-
-Here are some screenshots of the project:
-
-![Homepage Screenshot](./assets/images/Homepage.png.png)
-
-![Old Posts](./assets/images/OldPost.png.png)
-
-![Categories](./assets/images/Categories.png.png)
 
 ## 📝 How to Contribute
 
