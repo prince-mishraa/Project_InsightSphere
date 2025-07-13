@@ -6,6 +6,8 @@ Welcome to **InsightSphere** — Your one-stop destination for insightful articl
 
 [![Watch the demo](https://img.youtube.com/vi/GpK4uCfmCLg/maxresdefault.jpg)](https://youtu.be/GpK4uCfmCLg)
 
+## 🌐 Live Website: https://melodious-gecko-815468.netlify.app
+
 ## 🚀 Features
 
 - 🛜 **Live Trending News Feed** (TechCrunch)
